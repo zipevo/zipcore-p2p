@@ -54,7 +54,7 @@
   "dependencies": {
     "bitcore-lib-dash": "^0.14.1",
     "bloom-filter": "^0.2.0",
-    "buffers": "^0.1.1",
+    "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
