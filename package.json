@@ -5,10 +5,9 @@
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test:node",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc mocha"
   },
   "contributors": [
     {
@@ -59,10 +58,13 @@
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "@dashevo/dashcore-build": "git:github.com/dashevo/bitcore-build-dash#fix-name",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
-    "gulp": "^3.8.10",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "sinon": "^1.12.2"
   },
   "license": "MIT"
