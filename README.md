@@ -2,7 +2,7 @@ Dashcore P2P
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/@dashevo/dashcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/@dashevo/dashcore-p2p)
-[![Build Status](https://img.shields.io/travis/com/dashevo/dashcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.com/dashevo/dashcore-p2p)
+[![Build Status](https://github.com/dashevo/dashcore-p2p/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/dashevo/dashcore-p2p/actions/workflows/test_and_release.yml)
 
 `dashcore-p2p` adds Dash protocol support for Dashcore.
 
