@@ -52,7 +52,7 @@
     "url": "https://github.com/zipevo/zipcore-p2p.git"
   },
   "dependencies": {
-    "@zipevo/zipcore-lib": "^0.19.25",
+    "@zipevo/zipcore-lib": "https://github.com/zipevo/zipcore-lib",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^1.2.8"
